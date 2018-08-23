@@ -6,6 +6,8 @@ deftlinux.net (forence informatica)
 caine-live.net (forence informatica)
 centrux.org (lo mismo)
 
+PREGUNTAR SI CONVIENE  SEGUIR CON MYSQL O CON MARIADB
+
 
 clase 1:
 los arranques estna hechos en asambler. el SO en gneral en C.
@@ -29,6 +31,11 @@ la comunidad es la que  genera el software y  hace que crezca.
 lugs: SOn centros d e capacitaciones  , se reunian a dar charlas.
 
 flisol: es a nivel de LATAM , se dan charlas  , instalacion de SO , se contestna preguntas.
+
+QUE SON LAS  DISTINTAS DISTRIBUCIONES DE  GNU/LINUX: es tomar  el codigo fuente , lo compilo   , cambio  , modifico , etc , y lo subo y distribullo.
+
+una  de  las primeras  distribuciones  fue  SLACKWARE . hay miles de distribuciones , hay algunos que son  para cosas  exclusivas, como  informatica  forence ,  kali linux , etc.
+
 
 
 
