@@ -19,7 +19,14 @@ tipos de liscencias : la mas conocida es copyright( osea se reserva los derechos
 
 que es  virtualizacion: nos permite    instalar distintos tipos de SO (osea como crear muchas computadores). lo puedo usar como laboratorio , para probar distintos programas en distintos sistemas y ver como se comportan , todo desde  una misma pc. puedo sacar fotos  a  versiones  anteriores , por si actualizo , se rompe algo  y  puedo volver para atras. todo se almacena en Storage.
 tengo un  hardsward , un hipervisor que se encarga de mandar a diferentes ip mis maquinas  virtuales. 
-mayor rendimientos nos permite , aislamiento , fidelidad . 
+mayor rendimientos nos permite , aislamiento , fidelidad .
+
+hypervisor: se encarga de manejar la interacciones entre la maquina virtual  y el hardware del host.
+tipo1: es el que se  ejcuta directamente sobre el hardware del host, si  un SO en el medio , tiene una  iteraccion directa con el hardware.
+tipo 2:  es basicamente  una  aplicacion que se  ejecuta sobre el SO.
+
+
+ 
 
 
 
