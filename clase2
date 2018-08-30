@@ -38,6 +38,10 @@ usar  virtual box:
 4- siguiente , luego crear  un disco duro virtual
 5- todo siguiente ,  hasta tamaño de almacenaminto , ponemos fijo o reservado como querramos.
 6- seguimos , y le decimos  cuanto espacio , y luego crear.
+(si tengo maquina de 64 , virtual box de 64 ,  pero em instale 32   de SO, debo ir a  configuracion , SISTEMA,procesador  y tildo la opcion PAE.
+(voy a  almacenamito , voy a controladorSATA y donde dice disco solido lo tildo.  luego a  controlador.IDE  voy  y busco unidadCD/DVD  y busco la imagen que quiero empezar.)
+
+
 
 
 
