@@ -26,6 +26,22 @@ tipo1: es el que se  ejcuta directamente sobre el hardware del host, si  un SO e
 tipo 2:  es basicamente  una  aplicacion que se  ejecuta sobre el SO.
 
 
+(cuantas particiones  debe haber en linux?, 2 , una apra  swap(suap) , y otra para lo demas , la swap generalmente  es el doble d ememoria dedicada (memoria ram) . PREGUNTA DE EXAMEN!)
+
+
+
+usar  virtual box:
+
+1- ir a nueva.
+2- llenar los campos
+3- 1024 de memoria cuando le doy a siguiente
+4- siguiente , luego crear  un disco duro virtual
+5- todo siguiente ,  hasta tamaño de almacenaminto , ponemos fijo o reservado como querramos.
+6- seguimos , y le decimos  cuanto espacio , y luego crear.
+
+
+
+
  
 
 
