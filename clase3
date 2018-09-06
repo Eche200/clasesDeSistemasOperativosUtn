@@ -1,1 +1,38 @@
 clase 3:
+
+ALPINE SO , es muuuuuy liviano , me sirve para pc con muy poca capacidad.
+
+VER PROXMOX programa
+
+github.com/martin919191/ArquitecturaYSistemasOperativos (esta todo el material)
+
+bajar de virtualbox , dodne dice  EXTENSION PACK , all supprted plataform , 
+
+hipervisor le da  1 IP a cada maquina virtual
+
+
+el hipervisor pasaria a ser un kernel para la parte de virtualizacion
+
+a cada  maquina le vamos a  dar guest os
+
+
+vmware es la mas comun y  primera   forma de  virtualizacion
+
+
+vcenter es tener una pc central , que va a manejar muchos vmware instalados en  muchas pc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
