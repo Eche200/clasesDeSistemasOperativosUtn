@@ -9,6 +9,8 @@ $ : es un usuario comun
 ls : lista los archivos , programas, etc que haya en el lugar que le dijimos
 
 ls -l: lista pero de forma de  lista , y muestra informacion de cada  uno(el espacio 2 3 4 , es los permisos del super , 5 6 7 , son permisos de los usuarios dentro de un grupo , 8 9 10 son los permisos de los usuarios comunes). (envez de -l , ponemos -l -h nos da en formate convertido para mejor lectura. -la nos muestra  todos los arcivos , ocultos y no ocultos. -ld nos muestra  los permisos que tiene ese directorio solo los permisos ).
+si encontrmaos un b y no un d o un - , significa que es un bloque
+
 
 
 file yUnaRuta: lo que hace es para analizar  el archivo 
@@ -51,12 +53,21 @@ cat unArchivo : nos deja ver  informacion (cat cpuinfo , nos muestra infor de la
 
 
 qus son las estructuras de directorios: cada directorios es por algo , los /bin son comandos escenciales apra que funcionene los programas.
-el /but esta la version del kernel.
+el /boot esta la version del kernel.
 el /dev es donde estan los  dispositivos.
 el /etc es donde  estan todos los  archivos de configuracion.
 el /home es donde tengo el directorio de los usuarios
 el /lib son librerias de lib 64 bit , no eixste de 32 (pregunta de examen) no es  multilib
 el /mnt es para montar los  extraibles (tipo usb etc)
+/opt es donde se mantienen las aplicaciones
+/proc es donde se genera  la maquina
+/root donde esta las cosas del super usuario
+/sbin  comandos programados binarios de admistracion del sistema , solo para el super usuario
+/tnmp es donde se generan archivos temporados
+/srv datos especificios de sitios servidos por el sistem
+/usr/bin comandos/programas binarios
+
+
 
 
 
