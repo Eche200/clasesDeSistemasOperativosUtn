@@ -1,0 +1,29 @@
+clase 4 : 
+
+sudo: sudo es un archivo que  muestra que comandos puede hacer el super usuario 
+su -: permite que pasemos a super usuario
+
+$ : es un usuario comun
+# : es  super usuario/root
+
+ls : lista los archivos , programas, etc que haya en el lugar que le dijimos
+
+ls -l: lista pero de forma de  lista , y muestra informacion de cada  uno(el espacio 2 3 4 , es los permisos del super , 5 6 7 , son permisos de los usuarios dentro de un grupo , 8 9 10 son los permisos de los usuarios comunes). (envez de -l , ponemos -l -h nos da en formate convertido para mejor lectura. -la nos muestra  todos los arcivos , ocultos y no ocultos. -ld nos muestra  los permisos que tiene ese directorio solo los permisos ).
+
+
+file yUnaRuta: lo que hace es para analizar  el archivo 
+
+
+strip ls: puedo sacar toda la parte de  debagear de un programa (buscar mas info)
+
+readelf -a yUnaRuta : nos permite un debageador de un ejecutable
+
+apt-get install nombre : sirve para instalar
+
+
+
+bash nos permite atraez de combinacion de letras hacer  acciones.
+
+history : nos muestra una lista de  todos los comandos que usamos.
+
+
