@@ -46,5 +46,27 @@ cd -: esto nos devuelve al directorio que estab el anterior
 
 
 
+cat unArchivo : nos deja ver  informacion (cat cpuinfo , nos muestra infor de la pc , debo estar en cd /proc . tambien tengo cat meminfo , para ver como funciona en tiempo real la memoria).
+
+
+
+qus son las estructuras de directorios: cada directorios es por algo , los /bin son comandos escenciales apra que funcionene los programas.
+el /but esta la version del kernel.
+el /dev es donde estan los  dispositivos.
+el /etc es donde  estan todos los  archivos de configuracion.
+el /home es donde tengo el directorio de los usuarios
+el /lib son librerias de lib 64 bit , no eixste de 32 (pregunta de examen) no es  multilib
+el /mnt es para montar los  extraibles (tipo usb etc)
+
+
+
+
+
+
+
+
+
+
+
 
 
