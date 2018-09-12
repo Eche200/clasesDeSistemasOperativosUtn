@@ -27,3 +27,24 @@ bash nos permite atraez de combinacion de letras hacer  acciones.
 history : nos muestra una lista de  todos los comandos que usamos.
 
 
+
+
+apretando control R  , y podemos  hacer una busqueda en el historial de comandos.
+
+
+
+cd : nos permite movernos por los directorio( si quiero volver al lugar inicial cd /home/emmanuel/ , otra forma  cd ~  , otra forma cd)
+
+pwd: me dice en que directorio estoy parado
+
+
+
+cd .. :nos devuelve 1 directorio por atras (si hago cd ../.. esa barra es apra separar y  nso tire mas  directorios hacia atras y no solo 1)
+
+
+cd -: esto nos devuelve al directorio que estab el anterior
+
+
+
+
+
