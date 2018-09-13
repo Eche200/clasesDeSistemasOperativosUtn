@@ -1,4 +1,7 @@
 clase 4 : 
+udemycoupon.discountsglobal.com
+miriadax.net
+
 
 sudo: sudo es un archivo que  muestra que comandos puede hacer el super usuario 
 su -: permite que pasemos a super usuario
@@ -8,7 +11,7 @@ $ : es un usuario comun
 
 ls : lista los archivos , programas, etc que haya en el lugar que le dijimos
 
-ls -l: lista pero de forma de  lista , y muestra informacion de cada  uno(el espacio 2 3 4 , es los permisos del super , 5 6 7 , son permisos de los usuarios dentro de un grupo , 8 9 10 son los permisos de los usuarios comunes). (envez de -l , ponemos -l -h nos da en formate convertido para mejor lectura. -la nos muestra  todos los arcivos , ocultos y no ocultos. -ld nos muestra  los permisos que tiene ese directorio solo los permisos ).
+ls -l: lista pero de forma de  lista , y muestra informacion de cada  uno(el espacio 2 3 4 , es los permisos del super , 5 6 7 , son permisos de los usuarios dentro de un grupo , 8 9 10 son los permisos de los usuarios comunes). (envez de -l , ponemos -l -h nos da en formate convertido para mejor lectura. -la nos muestra  todos los arcivos , ocultos y no ocultos. -ld nos muestra  los permisos que tiene ese directorio solo los permisos. -li es para ver el numero de inodo ).
 si encontrmaos un b y no un d o un - , significa que es un bloque
 
 
@@ -51,6 +54,27 @@ cd -: esto nos devuelve al directorio que estab el anterior
 cat unArchivo : nos deja ver  informacion (cat cpuinfo , nos muestra infor de la pc , debo estar en cd /proc . tambien tengo cat meminfo , para ver como funciona en tiempo real la memoria).
 
 
+stat yUnaRuta: mustra informacion del nodo
+
+touch : sirve para  crear el archivo si no eixste, si existe cambia la hora.
+
+rm: sirve para  borrar archivos o directorio sin nada adentro
+rm -r: borra todo
+cp: es para copiar y a la vez renombrar si quiero ejemplo : cp /bin/ls yLaRutaDelLugarDondeQuieroCopiarEso
+cp -r: me  copia todoooooooo
+
+mv : me deja mover y  renombrar
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+
+
 
 qus son las estructuras de directorios: cada directorios es por algo , los /bin son comandos escenciales apra que funcionene los programas.
 el /boot esta la version del kernel.
@@ -69,8 +93,13 @@ el /mnt es para montar los  extraibles (tipo usb etc)
 
 
 
+255 son los caracteres  maximos que puedo tener  en un directorio .
 
 
+
+los inodos son punteros a archivos ,  es un bloque de almacenamiento de informacion.  
+
+dentro de esto hay 2 enlaces : 
 
 
 
