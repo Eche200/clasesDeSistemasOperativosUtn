@@ -65,7 +65,8 @@ cp -r: me  copia todoooooooo
 
 mv : me deja mover y  renombrar
 
-
+ln ls nuevo_ls : crea un enlace fisico
+ln -s ls nuevo_ls: crea un enlace simbolico
 
 
 
