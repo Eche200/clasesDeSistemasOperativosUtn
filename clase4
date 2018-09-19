@@ -3,6 +3,9 @@ udemycoupon.discountsglobal.com
 miriadax.net
 
 
+xMING y  putty , ver es bueno 
+
+
 sudo: sudo es un archivo que  muestra que comandos puede hacer el super usuario 
 su -: permite que pasemos a super usuario
 
@@ -63,16 +66,29 @@ rm -r: borra todo
 cp: es para copiar y a la vez renombrar si quiero ejemplo : cp /bin/ls yLaRutaDelLugarDondeQuieroCopiarEso
 cp -r: me  copia todoooooooo
 
+
+./nombreDeArchiv  es para ejecutar el programa en el directorio donde estoy
+
+
 mv : me deja mover y  renombrar
 
-ln ls nuevo_ls : crea un enlace fisico
-ln -s ls nuevo_ls: crea un enlace simbolico
+ln archivo nuevo_archivo : crea un enlace fisico
+ln -s archiv nuevo_archivo: crea un enlace simbolico
+
+stat nombreDeUnArchivo   y me dara la informacion del tipo de dato
+
+cual es el proceso principal PREGUNTA EXAMEN!!!!!!!!
+
+si tengo un sistem 64 bits, puedo poner 32? !!!!!!! EXAMEN
+
+EL DIRECTORIO QUE PUEDE USAR EL ROOT SOLO EL ROOT "BIN o SBIN"  PREGUNTA DE EXAMEN!!!!!!!!!!!
 
 
 
 
+more muestra info de  un archivo pero frena cuando llega al final de la pantala  y si apreto enter sigue y barra espaciadora sigue toda una pagina
 
-
+less hace lo mismo y  puedo buscar  tambien
 ----------------------------------------------------------------------------------
 
 
