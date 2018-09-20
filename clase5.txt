@@ -35,3 +35,10 @@ el ; sigue ejecutando todo aunque encuentre errores
 expresion regular:     sirve para  buscar cosas especificas  , se usan   ? (signfica  que un solo caracter) el .(que representa un caracter) 
 
 
+
+
+
+
+
+
+
