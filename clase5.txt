@@ -5,6 +5,8 @@ Ubunlog.com ver novedades de ubuntu
 trac linux  seguimiento de proyectos y errores
 
 
+regex101.com   evaluar  expresiones regulares
+
 
 qdpm.net para  project manager
 
@@ -28,5 +30,8 @@ el pai |  sirve para concatenar varios codigos  en una misma linea
 
 el && lee hasta que encuentra un comando que esta mal  , se ejecutan todos y  cuando se encuentr aun error deja de ejecutar
 el ; sigue ejecutando todo aunque encuentre errores
+
+
+expresion regular:     sirve para  buscar cosas especificas  , se usan   ? (signfica  que un solo caracter) el .(que representa un caracter) 
 
 
