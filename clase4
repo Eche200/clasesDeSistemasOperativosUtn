@@ -3,7 +3,9 @@ udemycoupon.discountsglobal.com
 miriadax.net
 
 
-xMING y  putty , ver es bueno 
+xMING y  putty , ver es bueno  , comunicacion entre maquinas
+
+firewall builder , es para administrar firewall
 
 
 sudo: sudo es un archivo que  muestra que comandos puede hacer el super usuario 
@@ -75,6 +77,11 @@ mv : me deja mover y  renombrar
 ln archivo nuevo_archivo : crea un enlace fisico
 ln -s archiv nuevo_archivo: crea un enlace simbolico
 
+
+man -k yUnComando  esto nos da que comando hay con esa descripcion
+man yUnComando me da el manual del comando , y si antes del comadno pongo un unmero y existe ese numero de manual , nos llevara.
+
+
 stat nombreDeUnArchivo   y me dara la informacion del tipo de dato
 
 cual es el proceso principal PREGUNTA EXAMEN!!!!!!!!
@@ -82,6 +89,9 @@ cual es el proceso principal PREGUNTA EXAMEN!!!!!!!!
 si tengo un sistem 64 bits, puedo poner 32? !!!!!!! EXAMEN
 
 EL DIRECTORIO QUE PUEDE USAR EL ROOT SOLO EL ROOT "BIN o SBIN"  PREGUNTA DE EXAMEN!!!!!!!!!!!
+
+
+
 
 
 
@@ -116,7 +126,7 @@ el /mnt es para montar los  extraibles (tipo usb etc)
 
 los inodos son punteros a archivos ,  es un bloque de almacenamiento de informacion.  
 
-dentro de esto hay 2 enlaces : 
+
 
 
 

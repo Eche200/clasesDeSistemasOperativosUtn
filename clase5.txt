@@ -11,9 +11,22 @@ qdpm.net para  project manager
 el 10 es examen
 
 
+tty nos muestra en que temrinal estamos  y  si mando un echo por ejemplo a otro tty nos muestra de uno a otro.
 
 
 
 
+redireccionamiento:
+
+
+
+
+
+
+el pai |  sirve para concatenar varios codigos  en una misma linea
+
+
+el && lee hasta que encuentra un comando que esta mal  , se ejecutan todos y  cuando se encuentr aun error deja de ejecutar
+el ; sigue ejecutando todo aunque encuentre errores
 
 
