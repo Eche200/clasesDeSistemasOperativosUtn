@@ -5,4 +5,69 @@ expresiones regulares : nos ayuda a  buscar  cosas determinadas en lugares deter
 sentencia : grep 'root' /etc/passwd
 esto nos dara  todo lo que este en el lugar que le dijimos , que tenga la palabra root
 
+si pongo -i adelante de 'root' busca todo sin importa la mayuscula o miniscula
+
+si pongo grep '^Root' archivo.txt busca todo lo que empieza la linea con lo que le pedi
+
+si pongo grep 'Root$' archivo.txt busca todo lo que termina la linea con lo que le pedi
+
+si pongo grep '^$' archivo.txt   esto detecta los espacios en blanco osea que empiezan y terminan en blanco que no hay nada , osea un enter
+
+si pongo grep -v '^$' archivo.txt  esto nos trae todo lo que no sea un espacio en blanco
+
+si pongo grep 'o*' archivo.txt  esto nos trae lo que tenga una o en cualquier lado
+
+
+si pongo grep '[0-9]' archivo.txt esto busca en el archivo las partes que tengan de tal cosa a tal otra
+
+
+si pongo egrep '[0-9]{4}\-[0-9]{4}' archivo.txt  esto busca que haya 4 numeros del 0 al 9 , luego un guion y luego tora vez del 0 al 9 4 veces
+busca donde se  cumpla eso y lo trae
+
+
+si pongo egrep  '[a-z]+\.[a-z]' practica2.txt  me busca un com.ar por ejemplo y me trae todo lo de ese lugar
+
+si pongo egrep '[0-9]{1,4}' archivo.txt busca donde se  repita  lo de los cuatro digitos
+
+
+
+
+
+sed lo que hace es buscar y  cambiar el contenido
+
+si pongo  sed 's/Root/PEPE/' archivo.txt  cambia pero solo muestra el cambio no sobreescribe
+dice  busca todo lo que die Root y cambialo por PEPE 
+
+
+si pongo sed -i 's/Root/PEPE' archivo.txt  cambia y  sobreescribe el archivo con las modificaciones
+
+
+
+
+si pongo sed 's/Root/PEPE 2/g' archivo.txt hace lo mismo solo que de la forma anterior de cambiar el uno por otro , aca si se repite   va a cambiarlo todas als veces que se repita en una misma linea
+
+
+
+ 
+
+
+
+
+> esto redirecciona lo de un arhcivo a otro , lo sobre escribe
+>> esto agrega al final del archivo al que le digo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
