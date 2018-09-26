@@ -1,0 +1,8 @@
+clase 6:
+
+expresiones regulares : nos ayuda a  buscar  cosas determinadas en lugares determinados. son como validaciones. se usa para todos  comandos , programacion. tenemos 2 formas de buscar grep y egrep .  simbolos a usar:  el ? , el . , el * , el signo de  elevado , el 
+
+sentencia : grep 'root' /etc/passwd
+esto nos dara  todo lo que este en el lugar que le dijimos , que tenga la palabra root
+
+
