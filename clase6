@@ -46,6 +46,23 @@ si pongo sed -i 's/Root/PEPE' archivo.txt  cambia y  sobreescribe el archivo con
 
 si pongo sed 's/Root/PEPE 2/g' archivo.txt hace lo mismo solo que de la forma anterior de cambiar el uno por otro , aca si se repite   va a cambiarlo todas als veces que se repita en una misma linea
 
+si pongo sed '1,2d' archivo.txt borra las lineas que le indique de un archivo 
+
+
+si pongo sed -e '/Root/d' -e '/Juan/d' archivo.txt  esto busca donde esten lo que le paso y luego borra toda la linea esa
+
+
+
+
+
+
+wc -l archivo.txt   esto nos dice  cuantas lineas tiene  un archivo
+
+
+
+
+
+nl  archivo.txt    nos da el contenido + el numero de lineas
 
 
  
