@@ -101,7 +101,29 @@ para remover  repositorios uso , apt-get remover nombre
 para borrar todo apt-get nombre --purge
 
 
-para reinstalar un paquete apt-get reinstall nombre 
+para reinstalar un paquete apt-get install --reinstall nombre 
+
+
+apt-get clean borrar los paquetes que bajo
+
+
+
+
+
+dpkg -i yNombreDelPaquete , eso me instala el paquete que baje.
+apt-get -f install baja las dependencia
+
+
+dpkg --configure paquete  esto es para  reconfigurar un paquete
+
+dpkg --configure -a paquete  hace lo mismo pero reconfigurando todo
+
+
+
+
+
+
+
 
 
 
