@@ -35,18 +35,18 @@ si pongo egrep '[0-9]{1,4}' archivo.txt busca donde se  repita  lo de los cuatro
 
 sed lo que hace es buscar y  cambiar el contenido
 
-si pongo  sed 's/Root/PEPE/' archivo.txt  cambia pero solo muestra el cambio no sobreescribe
+si pongo  sed -e 's/Root/PEPE/' archivo.txt  cambia pero solo muestra el cambio no sobreescribe
 dice  busca todo lo que die Root y cambialo por PEPE 
 
 
-si pongo sed -i 's/Root/PEPE' archivo.txt  cambia y  sobreescribe el archivo con las modificaciones
+si pongo sed -i -e's/Root/PEPE' archivo.txt  cambia y  sobreescribe el archivo con las modificaciones
 
 
 
 
 si pongo sed 's/Root/PEPE 2/g' archivo.txt hace lo mismo solo que de la forma anterior de cambiar el uno por otro , aca si se repite   va a cambiarlo todas als veces que se repita en una misma linea
 
-si pongo sed '1,2d' archivo.txt borra las lineas que le indique de un archivo 
+si pongo sed -e '1,2d' archivo.txt borra las lineas que le indique de un archivo 
 
 
 si pongo sed -e '/Root/d' -e '/Juan/d' archivo.txt  esto busca donde esten lo que le paso y luego borra toda la linea esa
@@ -76,6 +76,32 @@ nl  archivo.txt    nos da el contenido + el numero de lineas
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+REPOSITORIOS:  es  lo que contine un conjunto d e apqueres , los paqueres son un zip con codigo binario de cosas.   hay varios  tipo de paquetes, "LOS ESTABLES" que sirven al 100% , los "TESTING" que estan a prueba , "inestables" funcionan mal.
+en una maquina  empresarial no deberia tener  compiladores.
+todo lo que sea apt-get  es bajar de internet la aplicaciones . si se baja por repositorio se actualiza solo, sino tengo qe hacerlo manual
+para descargar las actualizaciones es  apt-get update
+para actualizar apt-get upgrade
+te pasa dentro de una misma version a otra actualizacion , ejemplo de la 18 a 18.2 uso esto. si es de 18 a 19 uso lo de abajo apt-get dist-upgrade
+verifica si hay una nueva version do-release-upgrade -d
+
+
+para remover  repositorios uso , apt-get remover nombre
+para borrar todo apt-get nombre --purge
+
+
+para reinstalar un paquete apt-get reinstall nombre 
 
 
 
